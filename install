@@ -1,7 +1,11 @@
 #!/bin/bash
 name=serf-common-patterns
 url=https://github.com/JosiahKerley/$name
+mkdir -p /etc/serf/handlers/
 cd /tmp
 git clone $url
 cd $name/src/
 python setup.py install
+cd ..
+cat tools/user-common-patterns.py > /etc/serf/handlers/user-common-patterns
+chmod +x /etc/serf/handlers/user-common-patterns
