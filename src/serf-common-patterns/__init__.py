@@ -163,14 +163,6 @@ class Handler:
 
 
 
-kv = KeyValue()
-
-kv.set('foo','bar')
-print kv.get('foo')
-
-
-
-
 
 
 
