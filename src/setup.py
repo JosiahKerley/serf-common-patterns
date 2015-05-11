@@ -9,5 +9,5 @@ setup(name='serfcommonpatterns',
       author_email='josiahkerley@gmail.com',
       install_requires=['serfclient'],
       license='MIT',
-      packages=['serf-common-patterns'],
+      packages=['serfcommonpatterns'],
       zip_safe=False,)
