@@ -8,4 +8,4 @@ cd $name/src/
 python setup.py install
 cd ..
 cat tools/user-common-patterns.py > /etc/serf/handlers/user-common-patterns
-chmod +x /etc/serf/handlers/user-common-patterns
+chmod +x /etc/serf/handlers/user-pattern
