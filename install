@@ -1,0 +1,7 @@
+#!/bin/bash
+name=serf-common-patterns
+url=https://github.com/JosiahKerley/$name
+cd /tmp
+git clone $url
+cd $name/src/
+python setup.py install
