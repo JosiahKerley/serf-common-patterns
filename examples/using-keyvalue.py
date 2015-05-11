@@ -1,6 +1,6 @@
 #!/usr/bin/python 
-from serfcommonpatterns import KeyVal
+from serfcommonpatterns import KeyValue
 kv = KeyVal()
-print kv.set('foo')
+print kv.get('foo')
 kv.set('foo','bar')
-print kv.set('foo')
+print kv.get('foo')

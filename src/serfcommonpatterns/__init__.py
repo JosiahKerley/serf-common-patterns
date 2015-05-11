@@ -72,7 +72,7 @@ class KeyValue:
         return(None)
       else:
         self.client.event(eventname,self.serialize.dumps({"namespace":self.namespace,"command":"rx_get","key":key}))
-        self.get(self,key,count)
+        return(self.get(key,count))
   def rx_get(self,key):
     keyfile = self.root+'/'+key
     if os.path.isfile(keyfile):
